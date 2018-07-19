@@ -1,0 +1,224 @@
+{
+	"groups": [
+		{
+			"keys": "tdui,common_png,common_json,shadow_png,map_json,tdui@atlas0_png,intro",
+			"name": "uiall"
+		},
+		{
+			"keys": "guai_json,guai_png,ta_json,ta_png,level1_json,level1_png,tower_json,creep_json,level2_json,level2_png,level3_json,level4_json,level5_json,level6_json,level7_json,level8_json,level3_png,level4_png,level5_png,level6_png,level7_png,level8_png,c001_png,c002_png,c003_png,c004_png,c005_png,c006_png,c007_png,ico1_png,ico2_png,ico3_png,ta1_json,ta1_png",
+			"name": "mapres"
+		}
+	],
+	"resources": [
+		{
+			"url": "ui/tdui.zip",
+			"type": "bin",
+			"name": "tdui"
+		},
+		{
+			"url": "units/guai.png",
+			"type": "image",
+			"name": "guai_png"
+		},
+		{
+			"url": "units/ta.json",
+			"type": "json",
+			"name": "ta_json"
+		},
+		{
+			"url": "units/ta.png",
+			"type": "image",
+			"name": "ta_png"
+		},
+		{
+			"url": "units/guai.json",
+			"type": "json",
+			"name": "guai_json"
+		},
+		{
+			"url": "map/level1.json",
+			"type": "json",
+			"name": "level1_json"
+		},
+		{
+			"url": "assets/common.png",
+			"type": "image",
+			"name": "common_png"
+		},
+		{
+			"url": "assets/common.json",
+			"type": "json",
+			"name": "common_json"
+		},
+		{
+			"url": "assets/shadow.png",
+			"type": "image",
+			"name": "shadow_png"
+		},
+		{
+			"url": "assets/level1.png",
+			"type": "image",
+			"name": "level1_png"
+		},
+		{
+			"url": "config/tower.json",
+			"type": "json",
+			"name": "tower_json"
+		},
+		{
+			"url": "config/creep.json",
+			"type": "json",
+			"name": "creep_json"
+		},
+		{
+			"url": "map/level2.json",
+			"type": "json",
+			"name": "level2_json"
+		},
+		{
+			"url": "assets/level2.png",
+			"type": "image",
+			"name": "level2_png"
+		},
+		{
+			"url": "map/map.json",
+			"type": "json",
+			"name": "map_json"
+		},
+		{
+			"url": "map/level3.json",
+			"type": "json",
+			"name": "level3_json"
+		},
+		{
+			"url": "map/level4.json",
+			"type": "json",
+			"name": "level4_json"
+		},
+		{
+			"url": "map/level5.json",
+			"type": "json",
+			"name": "level5_json"
+		},
+		{
+			"url": "map/level6.json",
+			"type": "json",
+			"name": "level6_json"
+		},
+		{
+			"url": "map/level7.json",
+			"type": "json",
+			"name": "level7_json"
+		},
+		{
+			"url": "map/level8.json",
+			"type": "json",
+			"name": "level8_json"
+		},
+		{
+			"url": "assets/level3.png",
+			"type": "image",
+			"name": "level3_png"
+		},
+		{
+			"url": "assets/level4.png",
+			"type": "image",
+			"name": "level4_png"
+		},
+		{
+			"url": "assets/level5.png",
+			"type": "image",
+			"name": "level5_png"
+		},
+		{
+			"url": "assets/level6.png",
+			"type": "image",
+			"name": "level6_png"
+		},
+		{
+			"url": "assets/level7.png",
+			"type": "image",
+			"name": "level7_png"
+		},
+		{
+			"url": "assets/level8.png",
+			"type": "image",
+			"name": "level8_png"
+		},
+		{
+			"url": "assets/mask.png",
+			"type": "image",
+			"name": "mask_png"
+		},
+		{
+			"url": "comic/001.png",
+			"type": "image",
+			"name": "c001_png"
+		},
+		{
+			"url": "comic/002.png",
+			"type": "image",
+			"name": "c002_png"
+		},
+		{
+			"url": "comic/003.png",
+			"type": "image",
+			"name": "c003_png"
+		},
+		{
+			"url": "comic/004.png",
+			"type": "image",
+			"name": "c004_png"
+		},
+		{
+			"url": "comic/005.png",
+			"type": "image",
+			"name": "c005_png"
+		},
+		{
+			"url": "comic/006.png",
+			"type": "image",
+			"name": "c006_png"
+		},
+		{
+			"url": "comic/007.png",
+			"type": "image",
+			"name": "c007_png"
+		},
+		{
+			"url": "assets/ico1.png",
+			"type": "image",
+			"name": "ico1_png"
+		},
+		{
+			"url": "assets/ico2.png",
+			"type": "image",
+			"name": "ico2_png"
+		},
+		{
+			"url": "assets/ico3.png",
+			"type": "image",
+			"name": "ico3_png"
+		},
+		{
+			"url": "ui/tdui@atlas0.png",
+			"type": "image",
+			"name": "tdui@atlas0_png"
+		},
+		{
+			"url": "ui/intro.zip",
+			"type": "bin",
+			"name": "intro"
+		},
+		{
+			"url": "units/ta1.json",
+			"type": "json",
+			"name": "ta1_json"
+		},
+		{
+			"url": "units/ta1.png",
+			"type": "image",
+			"name": "ta1_png"
+		}
+	]
+}

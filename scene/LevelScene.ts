@@ -46,41 +46,13 @@ class LevelScene extends BaseScene {
 				ui = new gui.TalentUI;
 				break;
 			case this._btn5:
-				var comp: fairygui.GComponent = fairygui.UIPackage.createObject("tdui1", "广告确认面板").asCom;
-				fairygui.GRoot.inst.addChild(comp);
-				var b1 = comp.getChild("b1").asButton;
-				var b2 = comp.getChild("b2").asButton;
-				var func1 = (e: egret.Event) => {
-					fairygui.GRoot.inst.removeChild(comp);
-					let h5api = window['h5api'];
-					if (h5api) {
-						gui.WaittingUI.make();
-						h5api.playAd((obj) => {
-							gui.WaittingUI.hide();
-							console.log('代码:' + obj.code + ',消息:' + obj.message)
-							if (obj.code === 10000) {
-								console.log('开始播放')
-							} else if (obj.code === 10001) {
-								console.log('播放结束')
-								G.sd.ddb += 20;
-								let t = DyEngine.DyMath.toNumber(G.sd.tt);
-								t++;
-								if (t < 10)
-									G.sd.tt = t;
-								observer.UIManager.send("upd_gold");
-							} else {
-								console.log('广告异常')
-							}
-						});
-						b1.removeEventListener(egret.TouchEvent.TOUCH_END, func1, this);
-					}
-				};
-				var func2 = (e: egret.Event) => {
-					fairygui.GRoot.inst.removeChild(comp);
-					b2.removeEventListener(egret.TouchEvent.TOUCH_END, func2, this);
-				}
-				b1.addEventListener(egret.TouchEvent.TOUCH_END, func1, this);
-				b2.addEventListener(egret.TouchEvent.TOUCH_END, func2, this);
+				var data = {
+                count: 0.01,
+                extString: "makeRecharge"
+				}				
+				window["BlackCat"].SDK.makeRecharge(data, function(res){
+					console.log('[BlackCat]', 'makeRecharge.callback.function.res => ', res)
+				})
 				break;
 		}
 	}

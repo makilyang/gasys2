@@ -36,6 +36,7 @@ class MainMenu extends BaseScene {
 	}
 
 	private onStart(e: egret.Event): void {
+		
 		if (G.bgMuz && G.bgSoundChancel == null)
 			G.bgSoundChancel = G.bgMuz.play(0, 1);
 		G.onceSnd("close");

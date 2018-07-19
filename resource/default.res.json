@@ -1,0 +1,25 @@
+{
+	"groups": [
+		{
+			"keys": "tduilite,mask_png,tduilite@atlas0_png",
+			"name": "preload"
+		}
+	],
+	"resources": [		
+		{
+			"url": "ui/tduilite.zip",
+			"type": "bin",
+			"name": "tduilite"
+		},
+		{
+			"url": "assets/mask.png",
+			"type": "image",
+			"name": "mask_png"
+		},
+		{
+			"url": "ui/tduilite@atlas0.png",
+			"type": "image",
+			"name": "tduilite@atlas0_png"
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+  "engineVersion": "5.2.4",
+  "compilerVersion": "5.2.4",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },  
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "promise"
+    },
+    {
+      "name": "fairygui",  
+      "path": "./libs/fairygui"  
+    }
+  ]
+}
